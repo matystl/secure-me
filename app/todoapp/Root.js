@@ -19,7 +19,7 @@ export default class Root extends Component {
           (() => {
             if (__DEVELOPMENT__) {
               return (
-                <DebugPanel top left bottom>
+                <DebugPanel top right bottom>
                   <DevTools store={store}
                             monitor={LogMonitor} />
                 </DebugPanel>

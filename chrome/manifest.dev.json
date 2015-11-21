@@ -16,6 +16,6 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*" ],
-  "content_security_policy": "default-src 'self'; script-src 'self' https://localhost:3000 'unsafe-eval'; connect-src https://localhost:3000 wss://localhost:3000; style-src * 'unsafe-inline'; img-src 'self' data:;"
+  "permissions": [ "contextMenus", "tabs", "storage", "*://*/*", "cookies" ],
+  "content_security_policy": "default-src 'self' https://*.facebook.com; script-src 'self' https://localhost:3000 'unsafe-eval' https://*.facebook.com; connect-src https://localhost:3000 wss://localhost:3000 https://*.facebook.com; style-src * 'unsafe-inline' https://*.facebook.com; img-src 'self'  data: https://*.facebook.com;"
 }
