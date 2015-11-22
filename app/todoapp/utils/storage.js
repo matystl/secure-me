@@ -10,12 +10,13 @@ function saveState(state) {
     chrome.browserAction.setBadgeText({ text: count > 0 ? count.toString() : '' });
   }
 }*/
-
+/*
 function setBadge(facebook) {
   if (chrome.browserAction) {
     chrome.browserAction.setBadgeText({ text: facebook.isLogged ? "1" : '' });
   }
 }
+*/
 
 export default function() {
   return next => (reducer, initialState) => {
@@ -23,7 +24,7 @@ export default function() {
     store.subscribe(function() {
       let state = store.getState();
       saveState(state);
-      setBadge(state.facebook);
+      //setBadge(state.facebook);
     });
     return store;
   };

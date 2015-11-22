@@ -1,10 +1,10 @@
 {
-  "version": "0.0.0",
-  "name": "react-chrome-extension-example",
+  "version": "0.0.1",
+  "name": "Secure me",
   "manifest_version": 2,
-  "description": "Example for react-chrome-extension-boilerplate",
+  "description": "Software for securing online accounts",
   "browser_action": {
-    "default_title": "React Chrome Extension Example",
+    "default_title": "Secure me",
     "default_popup": "popup.html"
   },
   "icons": {
@@ -16,6 +16,6 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": [ "contextMenus", "tabs", "storage",  "http://*/*", "cookies"  ],
-  "content_security_policy": "default-src 'self'; script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:;"
+  "permissions": [ "contextMenus", "tabs", "storage", "*://*/*", "cookies" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' https://localhost:3000 'unsafe-eval'; connect-src https://localhost:3000 wss://localhost:3000; style-src * 'unsafe-inline'; img-src 'self'  data: ;"
 }

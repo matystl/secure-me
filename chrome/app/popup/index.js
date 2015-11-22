@@ -1,5 +1,5 @@
 import React from 'react';
-import 'todomvc-app-css/index.css';
+//import 'todomvc-app-css/index.css';
 
 chrome.storage.local.get('state', (obj) => {
   let state = obj.state;

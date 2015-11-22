@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "eslint.enable": true,
+    "experimentalDecorators": true,
+    "javascript.validate.enable": false
+  }
+}

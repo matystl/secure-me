@@ -1,16 +1,21 @@
-<?xml version="1.0"?>
-<svg width="162" height="162" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="164" width="164" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="162" height="162">
+ <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+ <title>logo</title>
+ <desc>Created with Sketch.</desc>
  <g>
   <title>Layer 1</title>
-  <ellipse ry="77" rx="77" id="svg_2" cy="81" cx="81" stroke-width="0" stroke="#000" fill="#482816"/>
-  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="95" id="svg_1" y="113.5" x="22.945313" stroke-width="0" stroke="#000" fill="#ffffff">JH</text>
+  <g id="Page-1" fill="none" fill-rule="evenodd" stroke="null">
+   <g id="logo" stroke="null">
+    <g id="svg_1" stroke="null">
+     <g id="Shape-+-Path-+-Path" stroke-width="6" fill="#FFFFFF" stroke="#3770B1">
+      <path d="m37.15227,80.26779l-3.09894,-0.9194c-10.11237,-2.75816 -7.66583,-11.79881 -7.33963,-12.71819l0.97861,-2.91139l-3.09895,-0.9194c-7.0134,-1.992 -7.82892,-7.50832 -7.50272,-11.03262l26.74886,7.50832c-1.95724,3.37109 11.09097,10.49634 11.09097,15.39973c0,8.88742 -7.82893,15.09328 0,22.90807l-10.92787,-3.06462c-9.94926,-2.60493 -8.31825,-9.96001 -7.82895,-11.3391l0.97862,-2.91139l0,-0.00001z" id="Path" stroke="null"/>
+      <path d="m135.76462,63.67899l0.80853,2.90169c0.32343,1.06905 2.74905,9.92683 -7.27698,12.6758l-3.07251,0.91631l0.80856,2.9017c0.48511,1.3745 2.10223,8.70506 -7.76212,11.45403l-10.83466,3.05441c7.76215,-7.78874 0,-14.203 0,-22.90807c0,-4.88705 13.09857,-11.9122 10.99634,-15.27203l26.84399,-7.63602c0.32343,3.51254 -0.48511,9.01048 -7.43869,10.99586l-3.07248,0.91632l0.00002,0z" id="Path" stroke="null"/>
+     </g>
+     <path d="m57.83896,107.4222c9.75993,10.96854 21.8911,12.42934 23.5154,12.5778c1.61317,-0.15625 13.90897,-1.68916 23.62221,-12.68175c10.39407,-11.76257 14.4519,-29.91692 12.07254,-53.97589l-35.68735,-12.34236l-35.68657,12.34306c-2.38678,24.13251 1.70218,42.3222 12.16377,54.07913l0,0.00002z" id="shield_front" stroke-width="6" fill="#FFFFFF" stroke="#3770B1"/>
+     <path d="m93.30676,73.13559l0,-8.5509c0,-4.63726 -3.96431,-8.40955 -8.83688,-8.40955l-6.68465,0c-4.87257,0 -8.83687,3.77228 -8.83687,8.40955l0,8.5509l-1.20237,0c-2.44333,0 -4.44035,1.90521 -4.44035,4.23376l0,16.97388c0,2.32852 1.99702,4.23303 4.44035,4.23303l26.76237,0c2.44186,0 4.43961,-1.90451 4.43961,-4.23303l0.00148,-16.97388c0,-2.32855 -1.99699,-4.23376 -4.43884,-4.23376l-1.20384,0l-0.00001,0zm-5.94125,0l-12.47662,0l0,-8.5509c0,-1.51936 1.2989,-2.75606 2.89484,-2.75606l6.68466,0c1.59671,0 2.89636,1.23669 2.89636,2.75606l0,8.5509l0.00075,0z" id="lock" fill="#EE2A42" stroke="null"/>
+     <circle id="Oval-1" fill="#FFFFFF" cx="80.89306" cy="86.74859" r="4.67584" stroke="null"/>
+    </g>
+   </g>
+  </g>
  </g>
 </svg>

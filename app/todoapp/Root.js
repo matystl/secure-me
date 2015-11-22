@@ -15,7 +15,7 @@ export default class Root extends Component {
         <Provider store={store}>
           {() => <TodoApp /> }
         </Provider>
-        {
+        {/*
           (() => {
             if (__DEVELOPMENT__) {
               return (
@@ -26,7 +26,7 @@ export default class Root extends Component {
               );
             }
           })()
-        }
+        */}
       </div>
     );
   }
