@@ -23,6 +23,7 @@ function forEachVendor(c) {
     c(key, vendors_map[key]);
   });
 };
+let loaded = 0;
 forEachVendor((key, vendor) => {
   console.log(vendor);
   var isLogged = false;
@@ -34,13 +35,16 @@ forEachVendor((key, vendor) => {
         console.log("Sluzba "+ vendor.name + "is logged");
       }
     });
+    if (++loaded ==  Object.keys(vendors_map).length) {
+      
+      if (chrome.browserAction) {
+        chrome.browserAction.setBadgeText({ text:  Object.keys(logged).length.toString() });
+      }      
+    }
   });
 });
 console.log (logged);
 
-if (chrome.browserAction) {
-  chrome.browserAction.setBadgeText({ text:  Object.keys(logged).length.toString() });
-}
 
 console.log()
 

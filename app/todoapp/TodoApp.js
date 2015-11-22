@@ -35,7 +35,8 @@ export default class TodoApp extends Component {
   state = {
     vendors: {
       
-    }
+    },
+    loading: true,
   }
 
   componentDidMount() {
@@ -47,6 +48,7 @@ export default class TodoApp extends Component {
        c(key, vendors_map[key]);
       });
     };
+    let loaded = 0;
     forEachVendor((key, vendor) => {
       console.log(vendor);
       var isLogged = false;
@@ -58,12 +60,16 @@ export default class TodoApp extends Component {
             console.log("Sluzba "+ vendor.name + "is logged");
           }
         });
+        if (++loaded) {
+          this.setState({vendors: logged, loading: false});
+        } 
       });
     });
     console.log (logged);
     
     this.setState({
-      vendors: logged
+      vendors: logged,
+      loading: true,
     });
     
     
@@ -166,6 +172,11 @@ export default class TodoApp extends Component {
     console.log(vendors);
     console.log(vendors.map((i) => vendors_map[i]));
     console.log(vendors_map);
+    
+    if (this.state.loading) {
+      return <Center>Loading ...</Center>
+    }
+     
     return (
       <div>
         {vendors.map((i) => {
